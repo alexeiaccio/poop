@@ -12,7 +12,8 @@ div {
 }
 
 .container {
-  width: 720px;
+  width: 100%;
+  max-width: 720px;
   margin: 30px auto;
   margin: 60px auto;
 }
@@ -26,7 +27,7 @@ div {
 }
 
 .p-with-img {
-  width: 100%;
+  width: calc(100% - 48px);
   display: block;
   height: 400px;
   background-size: cover;
