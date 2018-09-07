@@ -24,3 +24,12 @@ div {
 .img {
   width: 100%;
 }
+
+.p-with-img {
+  width: 100%;
+  display: block;
+  height: 400px;
+  background-size: cover;
+  color: white;
+  padding: 24px;
+}
