@@ -8,11 +8,21 @@ a {
 }
 
 ul { 
-list-style: none;
+  list-style: none;
 }
 
 .container {
   width: 100%;
   max-width: 720px;
   margin: 30px auto;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+  bottom: 24px;
+  right: 24px;
 }
