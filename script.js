@@ -9,7 +9,7 @@ const Yuha = document.getElementById("yuha");
 const opacityHandler = x => y => (x.style.opacity = y);
 
 const moveHandler = e => {
-  const y = e.offsetY / window.innerHeight;
+  const y = (e.touches ? e.touches[0].screenY : e.offsetY) / window.innerHeight;
   opacityHandler(Smile)(y);
   opacityHandler(Yuha)(y);
 };

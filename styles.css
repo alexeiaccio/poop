@@ -23,10 +23,8 @@ body {
 
 .smile {
   background-image: url(./images/emjSmile.jpg);
-  transition: opacity 100ms ease-in-out;
 }
 
 .yuha {
   background-image: url(./images/yuhaEmj.png);
-  transition: opacity 100ms linear;
 }
